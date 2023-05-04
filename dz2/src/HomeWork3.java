@@ -1,4 +1,4 @@
-public class dz3 {
+public class HomeWork3 {
     public static void main(String[] args) {
     Person[] persArray = new Person[6];
     persArray[0] = new Person("Papich", "Lychii v mire", "Leorik@gmail.com", "88005553535", 1000500, 32);
@@ -31,8 +31,6 @@ class Person {
     @Override
     public String toString() {return (name + "\n-" + position + "\n-" +mail + "\n-" + phone + "\n-" + money + "\n-" + age);
     }
-
-
     public int getAge() {
         return age;
     }
